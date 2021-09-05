@@ -1,0 +1,107 @@
+/* Level 1 */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+}
+main {
+    border-radius: 20px;
+    margin: 15% 7.5%;
+    overflow: hidden;
+    text-align: center;
+}
+main > div {
+    background-color: white;
+    padding: 2.5% 7.5%;
+}
+
+/* Level 2 */
+
+h2 {
+    font-weight: 900;
+}
+p {
+    margin: 0 5%;
+}
+#container {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+}
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    box-shadow: 0 20px 10px hsl(225, 100%, 94%);
+    color: white;
+    padding: 5% 0;
+}
+button:hover {
+    background-color: hsl(245, 75%, 67%);
+}
+main > div > a:hover {
+    color: black;
+}
+
+/* Level 3 */
+
+#container > img {
+    margin: 5%;
+}
+#container > div {
+    line-height: ;
+    margin: 5% 0;
+}
+#container > div > * {
+    height: 50%;
+}
+#container > a {
+    line-height: 80px;
+    margin: 0 5% 0 auto;
+}
+#container > a:hover {
+    color: hsl(245, 75%, 67%);
+}
+
+/* Level 4 */
+
+main, button {
+    font: 16px 'Red Hat Display', sans-serif;
+}
+main > img, button {
+    width: 100%;
+}
+img, a, button {
+    display: block;
+}
+p, #child2, main > div > a {
+    color: hsl(224, 23%, 55%);
+}
+p, child2, #container > a {
+    font-weight: 500;
+}
+#container, button {
+    border-radius: 10px;
+}
+#container, main > div > a {
+    margin: 10% 0;
+}
+main > div > a, #child1 {
+    font-weight: 700;
+}
+main > div > a, #container > a:hover {
+    text-decoration: none;
+}
+
+/* Level 5 */
+
+@media only screen and (min-width: 768px) {
+body {
+    background: hsl(225, 100%, 94%) url("images/pattern-background-desktop.svg") no-repeat;
+}
+main {
+    margin: 10% auto;
+    width: 432px;
+}
+}
